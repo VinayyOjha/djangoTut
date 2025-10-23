@@ -1,0 +1,20 @@
+1. Create the virtual environment: 
+    py -m venv .venv
+
+2. Activate the virtual environment
+    source .venv/Scripts/activate
+
+3. Install Django 
+    py -p pip install Django
+
+4. Create a project with Django
+    django-admin startproject <project_name>
+
+5. Change working directory
+    cd <pro_name>
+
+6. Run the server
+    py manage.py runserver
+
+7. To create a new Django app
+    py manage.py startapp <app_name>
