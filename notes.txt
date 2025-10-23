@@ -1,3 +1,4 @@
 1. To load static files-
     - make changes to the html pages (line nos 2)
     - change the setting.py file to include the static directory (line nos 118)
+    - create files/dir in the static directory accordingly
