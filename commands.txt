@@ -1,0 +1,11 @@
+-To activate a virtula environment(venv)
+source .venv/Scripts/activate
+
+- To start a library/framework 
+py -m pip install Django
+
+- To start a project
+django-admin startproject myproject
+
+- To run the server:
+py manage.py runserver
