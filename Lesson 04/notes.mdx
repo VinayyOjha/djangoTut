@@ -1,0 +1,14 @@
+1. We added the Posts model in the models.py file(in the posts app dir)
+
+2. To make all the changes visible, we ran the command - py manage.py makemigrations.
+    and this is the result- 
+        {/* 
+            py manage.py makemigrations
+            Migrations for 'posts':
+            posts\migrations\0001_initial.py
+                + Create model Posts
+            (.venv)  
+        */}
+    We can see the result in the migrations folder - 0001_intial.py
+
+3. Apply the migrations by sending the migrate command - py manage.py migrate
